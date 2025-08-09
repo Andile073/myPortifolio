@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Andile Mayo | Work</title>
+  <style>
+    /* Same styling as index.html */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #fff; min-height: 100vh; padding: 0; display: flex; justify-content: center;
+    }
+    .container {
+      background-color: #1e1e2f; max-width: 900px; width: 100%;
+      border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      padding: 40px 50px; margin: 40px 20px;
+    }
+    nav {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .nav-list {
+      list-style: none; padding: 0; margin: 0; display: inline-flex; gap: 25px;
+    }
+    .nav-list li a {
+      color: #ffdd57; text-decoration: none; font-weight: 600;
+      font-size: 1.1rem; padding: 5px 10px; border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+    .nav-list li a:hover,
+    .nav-list li a.active {
+      background-color: #ffdd57;
+      color: #1e1e2f;
+      box-shadow: 0 4px 10px #ffdd57aa;
+    }
+
+    h1 { font-weight: 700; font-size: 3rem; margin-bottom: 0.2em; color: #ffdd57; text-shadow: 0 2px 5px #0008; text-align: center; }
+    h2 {
+      border-bottom: 2px solid #ffdd57; padding-bottom: 8px; margin-top: 40px; margin-bottom: 20px;
+      font-weight: 600;
+    }
+    ul {
+      padding-left: 20px; list-style-type: square; margin: 0; color: #dcdde1;
+    }
+    li {
+      background: #333454; padding: 15px 20px; border-radius: 10px;
+      margin-bottom: 15px;
+      transition: background 0.3s ease;
+      cursor: default;
+    }
+    li:hover {
+      background: #ffdd57; color: #1e1e2f; box-shadow: 0 4px 10px #ffdd57aa;
+    }
+
+    @media (max-width: 600px) {
+      .container { padding: 30px 20px; }
+      h1 { font-size: 2.2rem; }
+      .nav-list { gap: 15px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work.html" class="active">Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <h1>Work & Projects</h1>
+    <h2>What I've Worked On</h2>
+    <ul>
+      <li>
+        <strong>Student Attendance System</strong><br/>
+        Built a Java & MySQL system with secure login and an easy-to-use web interface to track attendance efficiently.
+      </li>
+      <li>
+        <strong>Online Shop Websites</strong><br/>
+        Designed and developed several responsive e-commerce websites, focusing on smooth shopping experiences and clean designs.
+      </li>
+      <li>
+        <strong>IT Support Volunteer</strong><br/>
+        Helped fellow students troubleshoot software, hardware, and network issues — improving their productivity and tech skills.
+      </li>
+      <li>
+        <strong>Personal Projects</strong><br/>
+        Experimenting with JavaScript frameworks, SEO basics, and integrating APIs to build modern, dynamic web apps.
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

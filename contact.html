@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Andile Mayo | Contact</title>
+  <style>
+    /* Same styles as index.html */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #fff; min-height: 100vh; padding: 0; display: flex; justify-content: center;
+    }
+    .container {
+      background-color: #1e1e2f; max-width: 900px; width: 100%;
+      border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      padding: 40px 50px; margin: 40px 20px;
+    }
+    nav {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .nav-list {
+      list-style: none; padding: 0; margin: 0; display: inline-flex; gap: 25px;
+    }
+    .nav-list li a {
+      color: #ffdd57; text-decoration: none; font-weight: 600;
+      font-size: 1.1rem; padding: 5px 10px; border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+    .nav-list li a:hover,
+    .nav-list li a.active {
+      background-color: #ffdd57;
+      color: #1e1e2f;
+      box-shadow: 0 4px 10px #ffdd57aa;
+    }
+
+    h1 { font-weight: 700; font-size: 3rem; margin-bottom: 0.2em; color: #ffdd57; text-shadow: 0 2px 5px #0008; text-align: center; }
+    .contact-info {
+      text-align: center; font-size: 1.2rem; color: #dcdde1;
+      line-height: 2.0;
+    }
+    .contact-info a {
+      color: #ffdd57; text-decoration: none; font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    .contact-info a:hover {
+      color: #fff;
+      text-shadow: 0 0 8px #ffdd57;
+    }
+
+    @media (max-width: 600px) {
+      .container { padding: 30px 20px; }
+      h1 { font-size: 2.2rem; }
+      .nav-list { gap: 15px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+
+    <h1>Contact Me</h1>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:mayoandile26@gmail.com">mayoandile26@gmail.com</a></p>
+      <p>Phone: <a href="tel:+2736629635">073 662 9635</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/andile-mayo-510b52239" target="_blank" rel="noopener noreferrer">linkedin.com/in/andile-mayo-510b52239</a></p>
+      <p>Location: Kempton Park, Johannesburg, Gauteng</p>
+    </div>
+  </div>
+</body>
+</html>

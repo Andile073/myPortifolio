@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Andile Mayo | Home</title>
+  <style>
+    /* Same styles as before for consistency */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #fff; min-height: 100vh; padding: 0; display: flex; justify-content: center;
+    }
+    .container {
+      background-color: #1e1e2f; max-width: 900px; width: 100%;
+      border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      padding: 40px 50px; margin: 40px 20px;
+    }
+    nav {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .nav-list {
+      list-style: none; padding: 0; margin: 0; display: inline-flex; gap: 25px;
+    }
+    .nav-list li a {
+      color: #ffdd57; text-decoration: none; font-weight: 600;
+      font-size: 1.1rem; padding: 5px 10px; border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+    .nav-list li a:hover,
+    .nav-list li a.active {
+      background-color: #ffdd57;
+      color: #1e1e2f;
+      box-shadow: 0 4px 10px #ffdd57aa;
+    }
+
+    h1 { font-weight: 700; font-size: 3rem; margin-bottom: 0.2em; color: #ffdd57; text-shadow: 0 2px 5px #0008; text-align: center; }
+    .about-me {
+      font-size: 1.1rem; text-align: center; max-width: 700px; margin: 0 auto 30px;
+      color: #dcdde1;
+    }
+    .highlight { color: #ffdd57; font-weight: 600; }
+
+    @media (max-width: 600px) {
+      .container { padding: 30px 20px; }
+      h1 { font-size: 2.2rem; }
+      .nav-list { gap: 15px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <h1>Andile Mayo</h1>
+    <p class="about-me">
+      Passionate <span class="highlight">Software Engineer</span> & <span class="highlight">Web Developer</span> based in Kempton Park, Johannesburg.<br/>
+      I create engaging websites, solve complex problems with <span class="highlight">Java</span> and web technologies, and love turning ideas into reality.
+    </p>
+  </div>
+</body>
+</html>
